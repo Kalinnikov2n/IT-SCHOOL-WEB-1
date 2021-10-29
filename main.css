@@ -1,0 +1,43 @@
+main{
+    background-color: antiquewhite;
+    }
+    body{
+        background-color: rgb(197, 193, 158);;
+    }
+    
+    header{
+        display: block;
+        height: 250px;
+        font-family: 'LemonMilk';
+        height: 50px;
+    
+    }
+    
+    @font-face {
+        font-family: LemonMilk;
+        src: url(./fonts/LEMONMILK-Light.otf);
+    }
+    td:hover{
+        background-color: darkblue;
+        color: white;
+    }
+    tr{
+        margin: auto;
+    }
+    td{
+        text-align: center;
+    
+    }
+    table{
+        border-spacing: 100px;
+        border: 2px solid black;
+        background-color: cornflowerblue;
+        height: 100px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+        
+    
+    
+    
+    
