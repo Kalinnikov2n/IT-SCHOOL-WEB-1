@@ -1,0 +1,18 @@
+hr {
+    background-color: burlywood;
+}
+q {
+    color:rgb(68, 51, 29);
+}
+#quote {
+    background-color: cornsilk;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: local('OpenSans')
+        url(/Fonts/OpenSans.ttf) format('ttf');
+}
+div {
+    font-family: 'OpenSans';
+    font-style: italic;
+}
