@@ -1,4 +1,14 @@
-tg{
-    border: 100px;
-    background-color: red;
+#red{
+color: red;
+background-color: rgb(209, 138, 130);
+width: 100px;
+height: 100px;
+}
+@font-face {
+    font-family: 'ZenKurenaido-Regular';
+    src: url(public/ZenKurenaido-Regular.ttf);
+}
+.div{
+    font-family: 'ZenKurenaido-Regular';
+    font-size: large;
 }
