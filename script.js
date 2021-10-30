@@ -1,81 +1,103 @@
-import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.121.1/examples/jsm/controls/OrbitControls.js'
+var camera, scene, renderer;
+var image;
 
-let scene;
-let camera;
-let renderer;
+init();
+animate();
+
 
 function init() {
-    let container = document.querySelector('.container');
 
-    //Scene
-    scene = new THREE.Scene()
-    scene.background = new THREE.Color('#000000');
+  renderer = new THREE.WebGLRenderer({
+    alpha: true
+  });
+  renderer.setSize(window.innerWidth / 2, window.innerWidth / 2);
+  renderer.setPixelRatio(2);
 
-    //Camera
-    camera = new THREE.PerspectiveCamera(40, window.innerWidth / window.innerHeight, 0.1, 300);
-    camera.position.z = 4;
-    camera.position.y = -1;
-    camera.position.x = -3;
+  document.body.appendChild(renderer.domElement);
 
-    
+  scene = new THREE.Scene();
+  camera = new THREE.OrthographicCamera(-10, 10, 10, -10, -10, 10);
 
-    //render
-    renderer = new THREE.WebGLRenderer({antialias: true})
-    renderer.setSize(window.innerWidth, window.innerHeight)
-    container.appendChild(renderer.domElement)
 
-    //OrbitControls
-    const controls = new OrbitControls(camera, renderer.domElement);
-    controls.update();
-    controls.enableDamping = true;
-    controls.minDistance = 40;
+  var texture = new THREE.TextureLoader().load('it.png');
+  var texture2 = new THREE.TextureLoader().load('school.png');
 
-    //light
-    const ambient = new THREE.AmbientLight(0xffffff, 1);
-    scene.add(ambient)
 
-    let light = new THREE.PointLight(0xc4c4c4, 1);
-    light.position.set(0, 300, 500);
-    scene.add(light)
+  var material = new THREE.MeshBasicMaterial({
+    map: texture
+  });
 
-    let light2 = new THREE.PointLight(0xc4c4c4, 1);
-    light2.position.set(500, 300, 500);
-    scene.add(light2)
+  var material2 = new THREE.MeshBasicMaterial({
+    map: texture2
+  });
+  material.transparent = true;
+  material2.transparent = true;
 
-    let light3 = new THREE.PointLight(0xc4c4c4, 1);
-    light3.position.set(0, 300, -500);
-    scene.add(light3)
 
-    let light4 = new THREE.PointLight(0xc4c4c4, 1);
-    light4.position.set(-500, 300, 500);
-    scene.add(light4)
+  var geometry = new THREE.SphereGeometry(9.98, 50, 50);
+  mesh = new THREE.Mesh(geometry, material);
+  var geometry2 = new THREE.SphereGeometry(10, 50, 50);
+  mesh2 = new THREE.Mesh(geometry2, material2);
 
-    //model
-    const loader = new THREE.GLTFLoader();
-    loader.load('./3dModel/logo.gltf', gltf => {
-        scene.add(gltf.scene);
-    }, 
-        function (error) {
-            console.log('Error: ' + error)
-        }
-    )
-
-    //Resize
-    window.addEventListener('resize', onWindowResize, false)
-    
-    function onWindowResize() {
-        camera.aspect = window.innerWidth / window.innerHeight;
-        camera.updateProjectionMatrix();
-
-        renderer.setSize(window.innerWidth, window.innerHeight)
-    }
-
-    function animate() {
-        requestAnimationFrame(animate)
-        controls.update();
-        renderer.render(scene, camera)
-    }
-    animate()
+  mesh2.rotation.y = -Math.PI / 2;
+  mesh.rotation.y = -Math.PI / 2;
+  scene.add(mesh2);
+  scene.add(mesh);
 }
-init()
 
+function animate() {
+  requestAnimationFrame(animate);
+  render();
+}
+
+function render() {
+  renderer.render(scene, camera);
+  mesh2.rotation.y -= 0.0009;
+  mesh.rotation.y += 0.0009;
+}
+
+
+
+Math.radians = function (degrees) {
+  return degrees * Math.PI / 180;
+};
+
+var offset = $("canvas").offset();
+
+$("old").on("mousemove", function (e) {
+
+  pos = (((360 * (e.pageX - window.innerWidth / 2) / window.innerWidth) * Math.PI / 180) / 2) - Math.PI / 2;
+
+  pos2 = ((360 * (e.pageY - window.innerHeight / 8) / window.innerHeight) * Math.PI / 180) - Math.PI / 2;
+
+
+  mesh2.rotation.y = -pos - Math.PI;
+  mesh.rotation.y = pos;
+
+  mesh2.rotation.x = pos2 / 10;
+  mesh.rotation.x = pos2 / 10;
+
+
+
+});
+
+$(document).on("mousemove touchmove touchstart", function (e) {
+
+  e.preventDefault();
+
+  var touchstart = e.type === 'touchstart' || e.type === 'touchmove',
+    e = touchstart ? e.originalEvent : e,
+    pageX = touchstart ? e.targetTouches[0].pageX : e.pageX,
+    pageY = touchstart ? e.targetTouches[0].pageY : e.pageY;
+
+
+  pos = (((360 * (event.pageX - window.innerWidth / 2) / window.innerWidth) * Math.PI / 180) / 2) - Math.PI / 2;
+
+  pos2 = ((360 * (event.pageY - window.innerHeight / 8) / window.innerHeight) * Math.PI / 180) - Math.PI / 2;
+
+  mesh2.rotation.y = -pos - Math.PI;
+  mesh.rotation.y = pos;
+
+  mesh2.rotation.x = pos2 / 10;
+  mesh.rotation.x = pos2 / 10;
+});
