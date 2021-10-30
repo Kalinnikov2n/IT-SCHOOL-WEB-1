@@ -57,9 +57,16 @@ a {
 
 a:hover {
   cursor: pointer;
+  
+}
+
+.link {
+  transition: all 200ms ease-in-out;
 }
 
 .link:hover {
   color: rgb(45, 94, 255);
+  transform: scale(1.1);
+  transition: all 200ms ease-in-out;
   cursor: pointer;
 }
