@@ -1,0 +1,17 @@
+body {
+    font-family:'GOST';
+}
+@font-face {
+    font-family: 'GOST';
+    src: url(./Public/fonts/GOST\ type\ A\ Standard.ttf);
+}
+.headT{
+    border-spacing: 30px;
+    background-color: rgb(236, 132, 167);
+    width:100%;
+    border-collapse:collapse ;
+    
+}
+TD{
+    text-align:center
+}
