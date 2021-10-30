@@ -1,0 +1,32 @@
+#title {
+    color: blueviolet;
+    font-family: 'gilroy';
+    font-style: italic;
+    font-weight: bold;
+}
+
+#beer {
+    width: 20px;
+    height: 20px;
+}
+
+button {
+    padding: 10px;
+    text-align: center;
+
+    
+
+}
+
+@font-face {
+    font-family: 'gilroy';
+    font-style: italic;
+    src: local('gilroy'),
+        url('/Gilroy-Light.otf') format('otf')
+}
+
+.white {
+    margin: 50px;
+    height: 500px;
+
+}
