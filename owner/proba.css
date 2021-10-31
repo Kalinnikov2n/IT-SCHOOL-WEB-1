@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Dancing+Script&family=Inconsolata:wght@500&display=swap');
+header{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Dancing Script', cursive;
+    width: 100%;
+    background: cornflowerblue;
+    height: 60px;
+   }
+   body {
+    margin: 0;
+    background-color: lavender; 
+   }
+
+.container{
+    max-width: 1600px;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+@media(max-width: 1600px){
+    .container{
+        max-width: 1100px;
+    }
+}
+
+
+@media(max-width: 1200px){
+    .container{
+        max-width: 970px;
+    }
+}
+
+@media(max-width: 992px){
+    .container{
+        max-width: 750px;
+    }
+}
+
+@media(max-width: 767px){
+    .container{
+        max-width: none;
+    }
+}
+.name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+    margin-left: 60px;
+}
+
+.vvedite{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: 300px;
+    margin-top: -40px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: 80px;
+    margin-top: -22px;
+}
+
+.flex2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+footer{
+    width: 100%;
+    background: cornflowerblue;
+    height: 120px;
+}
+
+.znak1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.znak2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.znak3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+.inst{
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -120px;
+    margin-left: 40px;
+}
+
+.vkon{
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 17px;
+    margin-left: 40px;
+}
+
+
+.github{
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 17px;
+    margin-left: 40px;
+}
+
+
+.ssylkaInst{
+    
+    font-size: 20px;
+    justify-content: flex-start;
+    margin-top: -133px;
+    margin-left: 110px;
+}
+
+.ssylkaVK{
+    
+    font-size: 20px;
+    justify-content: flex-start;
+    margin-left: 110px;
+}
+
+.ssylkaGIT{
+
+    font-size: 20px;
+    justify-content: flex-start;
+    margin-left: 110px;
+}
+
