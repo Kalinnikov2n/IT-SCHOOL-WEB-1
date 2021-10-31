@@ -1,17 +1,30 @@
 body {
-    font-family:'GOST';
+    font-family:'GOST', '20354';
 }
 @font-face {
     font-family: 'GOST';
     src: url(./Public/fonts/GOST\ type\ A\ Standard.ttf);
+    font-family: '20354';
+    src: url(./Public/fonts/20354.otf)
 }
 .headT{
     border-spacing: 30px;
-    background-color: rgb(236, 132, 167);
+    background-color: rgb(235, 140, 170);
     width:100%;
     border-collapse:collapse ;
+    font-family: 'GOST';
     
 }
 TD{
     text-align:center
+}
+ 
+.head1{
+    text-align: center;
+    font-size: 60px;
+    font-family: '20354';
+
+
+   
+
 }
