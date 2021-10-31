@@ -1,3 +1,16 @@
+
+header {
+    background-color: black;
+}
+
+article {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+footer {
+    background-color: black;
+}
 #title {
     color: blueviolet;
     font-family: 'gilroy';
@@ -5,17 +18,13 @@
     font-weight: bold;
 }
 
-#beer {
-    width: 20px;
-    height: 20px;
-}
 
 button {
     padding: 10px;
-    text-align: center;
-
-    
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15pt;
 }
 
 @font-face {
@@ -29,4 +38,13 @@ button {
     margin: 50px;
     height: 500px;
 
+}
+
+#logo {
+    margin-left: 10px;
+}
+
+.links {
+    margin-left: 10px;
+    padding: 10px;
 }
