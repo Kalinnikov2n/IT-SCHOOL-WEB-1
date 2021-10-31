@@ -2,9 +2,9 @@
 
 @font-face {
     font-family: 'Ubuntu', sans-serif;
-    src: url("./fonts/Ubuntu-Light.ttf")
+    src: url('./fonts/Ubuntu-Regular.ttf')
+         url("./fonts/Ubuntu-Light.ttf")
          url('./fonts/Ubuntu-Medium.ttf')
-         url('./fonts/Ubuntu-Regular.ttf')
          url('/fonts/Ubuntu-Bold.ttf');
 }
 
@@ -15,7 +15,7 @@ header {
     height: 20%;
     margin: 0 auto;
     padding: 0 20px;
-    background: rgb(142, 171, 224)  no-repeat;
+    background: rgb(142, 171, 224);
     border-radius: 10px;
 }
 
@@ -54,12 +54,30 @@ article {
     width: 70%;
    }
 
-img {
+#logo {
+    height: 5=100px; 
+    width: 100px; 
+    border-radius: 50%;
+}
+
+#logo:hover {
+    box-shadow: 0 0 5px darkslategrey;
+}
+
+#img {
     width: 80%;
     height: 80%;
     border-radius: 20px;
-    border: 5px solid grey;
+    border: 3px solid grey;
     box-shadow: 10px grey;
+}
+
+#img:hover {
+    box-shadow: 0 0 20px dimgray;
+}
+
+a:hover {
+    text-shadow: 0 0 10px gray;
 }
 
 aside {
@@ -90,6 +108,5 @@ footer {
     padding: 25px 0;
     padding-left: 25px;
     font-size: 16px;
-    
     border-radius: 20px;
 }
