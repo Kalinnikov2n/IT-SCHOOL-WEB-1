@@ -1,25 +1,50 @@
 
 header {
     background-color: black;
+    color: white;
+    position: relative;
+}
+header span {
+    position: absolute;
+    top: 40%;
 }
 
 article {
     margin-top: 35px;
     margin-bottom: 35px;
+    text-align: center;
 }
 
 footer {
     background-color: black;
 }
+
 #title {
+    margin-left: 10px;
     color: blueviolet;
     font-family: 'gilroy';
     font-style: italic;
     font-weight: bold;
+    font-size: 50px;
+}
+ 
+#quote {
+    margin-left: 10px;
+    font-size: 30px;
+    background-color: blueviolet;
+    margin-left: 10px;
+    padding: 10px;
+    color: white;
 }
 
+.button {
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+}
 
 button {
+    margin: 20px;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -35,9 +60,30 @@ button {
 }
 
 .white {
-    margin: 50px;
-    height: 500px;
+    margin-top: 20px;
+    width: 450px;
+    height: 450px;
+    display: inline-block;
+    text-align: center;
+}
 
+.white span {
+    display: block;
+    margin-top: 15px;
+}
+
+.memes {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.skroll {
+    width: auto;
+    height: 500px;
+    overflow: auto;
+    display: flex;
 }
 
 #logo {
@@ -48,3 +94,4 @@ button {
     margin-left: 10px;
     padding: 10px;
 }
+
