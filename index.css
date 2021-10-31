@@ -22,5 +22,23 @@ footer {
     padding: 10px;
 }
 .WhiteContent {
-    height: 610px;
+    height: 580px;
+    width: auto;
+    overflow: auto;
+    border: 1px solid black;
+    /* padding: 20px; */
+    display: flex;
+    padding: 0 5px;
 }
+.item {
+    flex: 1 1 auto;
+    margin: 0 15px;
+  }
+.picture {
+      height: 500px;
+  }
+  figcaption {
+      text-align: center;
+      font-size: 250%;
+      font-family: Arial, Helvetica, sans-serif;
+  }
