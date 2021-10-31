@@ -14,6 +14,7 @@
 .information{
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
+    color: darkblue;
     font-size: 20px;
     border-radius: 15px;
     width: 200px;
@@ -22,6 +23,7 @@
 .reviews{
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
+    color: darkblue;
     font-size: 20px;
     border-radius: 15px;
     width: 200px;
@@ -30,6 +32,7 @@
 .product{
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
+    color: darkblue;
     font-size: 20px;
     border-radius: 15px;
     width: 200px;
@@ -38,13 +41,14 @@
 .guarantee{
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
+    color: darkblue;
     font-size: 20px;
     border-radius: 15px;
     width: 200px;
     height: 100px;
 }
 .mid{
-    height: 700px;
+    height: 1500px;
 }
 .paragph{
     font-family: 'PT Sans', sans-serif;
@@ -53,6 +57,30 @@
     font-size: 60px;
     color: lightgrey;
     width: 900px;
+}
+.whiteblock{
+
+    display: flex;
+    background-color: white;
+    width: 900px;
+    height: 1000px;
+}
+.text2{
+    display: flex;
+    align-items:flex-end;
+    justify-items: flex-start;
+}
+.zakat1{
+    margin: 0px;
+    border-radius: 250px;
+    width: 450px;
+    height: 500px;
+}
+.zakat2{
+    margin: 0px;
+    border-radius: 250px;
+    width: 450px;
+    height: 500px;
 }
 
 .vk{
