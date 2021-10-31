@@ -8,13 +8,19 @@ body {
     src: url(./Public/fonts/20354.otf)
 }
 .headT{
-    border-spacing: 30px;
+    border-spacing: 2px;
     background-color: rgb(235, 140, 170);
     width:100%;
-    border-collapse:collapse ;
+    border-collapse:collapse;
     font-family: 'GOST';
-    
-}
+    border-top-color: black;
+    border-color: black;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-end-end-radius: 40px;
+    border-end-start-radius: 40px;
+
+    }
 TD{
     text-align:center
 }
