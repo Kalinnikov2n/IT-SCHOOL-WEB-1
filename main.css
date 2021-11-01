@@ -1,0 +1,59 @@
+     body {
+         background-color: rgb(206, 77, 156);
+     }
+
+
+     @font-face {
+         font-family: 'Arial Nova';
+         src: local('Arial Nova Bold'), local('Arial-Nova-Bold'),
+             url('ArialNova-Bold.woff2') format('woff2'),
+             url('ArialNova-Bold.woff') format('woff'),
+             url('ArialNova-Bold.ttf') format('truetype');
+         font-weight: 700;
+         font-style: normal;
+     }
+
+     .dws {
+         position: relative;
+         left: 150px;
+     }
+
+     .butt {
+         text-transform: uppercase;
+         text-decoration: none;
+         border: 5px solid #222666;
+         font-size: 30px;
+         width: 250px;
+         height: 60;
+         display: block;
+         text-align: center;
+         line-height: 60px;
+         font-family: Arial, Helvetica, sans-serif;
+         position: relative;
+         transition: .4s;
+         overflow: hidden;
+     }
+     .butt::before, 
+     .butt::after{
+         position: absolute;
+         content: '';
+         width: 100%;
+         height: 100%;
+         background: #218284;
+         top: 0;
+         left: -100%;
+         opacity: .5;
+         transition: .4s;
+         z-index: -1;
+     }
+     .butt::after{
+         opacity: 1;
+         transition-delay: .2s;
+     }
+     .butt:hover{
+         color: #fff;
+     }
+     .butt:hover::before,
+     .butt:hover::after{
+        left: 0;
+     }
