@@ -31,6 +31,8 @@ section
     width: 900px;
     height: 900px;
 	border: solid 3px lightsalmon;
+	overflow-x: scroll; /* прокрутка по горизонтали */
+	overflow-y: scroll; /* прокрутка по вертикали */
 }
 #wrapper {
 	max-width: 960px;
@@ -53,3 +55,13 @@ footer {
 a {
 	color: lightskyblue;
 }
+figure {
+	text-align: center;
+	font: 12px Tahoma, sans-serif;
+	color: black;
+}
+img {
+	max-width: 300px;
+	max-height: 300px;
+}
+
