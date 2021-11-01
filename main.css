@@ -16,8 +16,15 @@ body {
     border-radius: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bolder;
-
-
+    font-style: unset;
+    }
+    .row{
+       border-top-left-radius: 40px;
+       border-end-start-radius: 40px;
+    }
+    .row1{
+        border-top-right-radius: 40px;
+        border-end-end-radius: 40px;
     }
 TD{
     text-align:center
@@ -33,6 +40,8 @@ TD{
     background-color: lemonchiffon;
     background-size: 60px;
     font-family: monospace;
+    position:fixed
+    
 }
 .footer{
     position: fixed;
