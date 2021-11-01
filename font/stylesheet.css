@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Ustroke';
+    src: url('Ustroke-Regular.eot');
+    src: local('Ustroke Regular'), local('Ustroke-Regular'),
+        url('Ustroke-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Ustroke-Regular.woff2') format('woff2'),
+        url('Ustroke-Regular.woff') format('woff'),
+        url('Ustroke-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
