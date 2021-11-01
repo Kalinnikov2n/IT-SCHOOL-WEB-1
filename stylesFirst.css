@@ -3,7 +3,10 @@ body {
 	font: 22px Tahoma, sans-serif;
 	background-color: rgb(215, 215, 235);
 	border-top: 5px solid #7e7e7e;
-	margin: 0;
+	margin: 30;
+    border: solid black;
+    height: auto;
+    width: 250px;
 }
 input[type="text"] {
 	background-color: #f3f3f3;
@@ -13,20 +16,7 @@ input[type="text"] {
 	padding: 0 10px;
 	vertical-align: top;
 }
-button {
-	color: #fff;
-	background-color: #29c5e6;
-	border: none;
-	height: 32px;
-	font-family: 'Oswald', sans-serif;
-}
-p {
-	margin: 0px 0;    
-}
-#wrapper {
-	max-width: 960px;
-	margin: auto;
-}
+
 header {
 	padding: 0px 0;
 }
