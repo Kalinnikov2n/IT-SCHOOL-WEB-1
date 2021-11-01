@@ -1,12 +1,62 @@
-.zz{
-    color: black;
+.title{
+    color: blanchedalmond;
     font-size: 70px;
     font-family: "Ustroke";
 }
-body{
+#header{
+ width: 100%;
+ background: black url(logof.jpg) no-repeat 5% 50%;
+ height: 110px;
+ border-radius: 55px;
+}
+#footer{
+    height: 150px;
+    background-color: darkolivegreen;
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    font-family: 'Neucha', cursive;
+    color: blanchedalmond;
+    font-size: 20px;
+   }
+.nad{
+    font-family: 'Neucha', cursive;
+    color: darkolivegreen;
+    font-size: 20px;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	display: table;
+	height: 100%;
+}
+.content {
+	display: table-row;
+	height: 100%;
+}
+html, body{
     background-color: blanchedalmond;
+    height: 100%;
 
 }
+.contacts{
+    font-family: 'Neucha', cursive;
+    color: blanchedalmond;
+    font-size: 25px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+#c{
+    font-size: 29px;
+    list-style: none;
+}
+
 @font-face {
     font-family: 'Ustroke';
     src: url('Ustroke-Regular.eot');
