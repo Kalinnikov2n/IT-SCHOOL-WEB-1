@@ -34,3 +34,8 @@ TD{
     background-size: 60px;
     font-family: monospace;
 }
+.footer{
+    position: fixed;
+    left: 2; bottom: 0;
+    font-family: Verdana;
+}
