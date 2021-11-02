@@ -1,0 +1,92 @@
+
+#header{
+ width: 100%;
+ background: black url(logof.jpg) no-repeat 5% 50%;
+ height: 110px;
+ border-radius: 55px;
+}
+#footer{
+    height: 150px;
+    background-color: darkolivegreen;
+}
+#boloto{
+    font-family: 'Neucha', cursive;
+    color: black;
+    position:absolute;
+    font-size: 40px;
+    top: 140px;
+    left: 30px;
+}
+#c{
+    font-size: 29px;
+    list-style: none;
+}
+#hand{
+    position: absolute;
+    left: 1200px;
+    top: 0px;
+}
+.song{
+    position: relative;
+    left: 100px;
+    font-family: 'Neucha', cursive;
+    color: black;
+    font-size: 35px;
+    bottom: 200px;
+}
+.title{
+    color: blanchedalmond;
+    font-size: 70px;
+    font-family: "Ustroke";
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    font-family: 'Neucha', cursive;
+    color: blanchedalmond;
+    font-size: 20px;
+   }
+.nad{
+    font-family: 'Neucha', cursive;
+    color: darkolivegreen;
+    font-size: 20px;
+}
+.contacts{
+    font-family: 'Neucha', cursive;
+    color: blanchedalmond;
+    font-size: 25px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	display: table;
+	height: 100%;
+}
+.content {
+	display: table-row;
+	height: 100%;
+}
+html, body{
+    background-color: blanchedalmond;
+    height: 100%;
+
+}
+
+@font-face {
+    font-family: 'Ustroke';
+    src: url('Ustroke-Regular.eot');
+    src: local('Ustroke Regular'), local('Ustroke-Regular'),
+        url('Ustroke-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Ustroke-Regular.woff2') format('woff2'),
+        url('Ustroke-Regular.woff') format('woff'),
+        url('Ustroke-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
