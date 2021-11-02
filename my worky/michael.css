@@ -8,18 +8,6 @@
     background-color: #251e3e ;
 }
 
-.header {
-    width
-    height: 8%;
-    display:table;
-    float: none;
-    text-align: center;
-}
-body.style {
-    height: auto;
-    background-color: #251e3e ;
-}
-
 .nkm-name {
     text-align: center;
 }
@@ -35,6 +23,7 @@ body.style {
 }
 
 .memes {
-
+    background-image: url(./images/nicekidmichael.png);
+    height: auto;
     align-items: center;
 }
