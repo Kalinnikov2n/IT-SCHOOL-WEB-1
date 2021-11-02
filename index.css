@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: rgb(250, 109, 255);
+    width: 75vw;
+    height: 100px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    height: 1000px;
+    width: 10px;
+    background-color: black;
+}
+footer{
+    background-color: rgb(250, 109, 255);
+    width: 75vw;
+    height: 50px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto; 
+}
