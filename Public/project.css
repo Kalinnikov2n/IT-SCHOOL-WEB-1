@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    overflow: auto;
+
+}
+.logo{
+    background:black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.graphiclogo{
+    height: 200px;
+    width: 100%;
+    display: flex;
+}
+.maintext{
+    font-size: 16pt;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    padding: 15px;
+}
+.mw-100{
+    max-width: 100%;
+    height: 400px;
+    width: 600px;
+    justify-content: center;
+}
+.links{
+    padding: 5px;
+}
+.series_container{
+    display: flex;
+    justify-content: center;
+}
+.series{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom:30px;
+    flex-wrap: wrap;
+}
+.advantages_item{
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
