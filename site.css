@@ -1,0 +1,35 @@
+.heads
+{
+    text-align: center;
+
+color:red;
+font-weight: 900;
+font-stretch: ultra-expanded;
+
+}
+
+.body
+{
+
+background-color: black;
+overflow-y:scroll;
+}
+
+
+
+.footer
+{
+
+position:fixed;
+top:88%
+}
+
+
+.img
+{ margin-top: 100px;
+    margin-bottom: 0px; 
+    margin-right: 50%; 
+    margin-left: 37%; 
+   
+
+}
