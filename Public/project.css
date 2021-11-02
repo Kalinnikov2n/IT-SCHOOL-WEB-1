@@ -2,6 +2,14 @@
     margin: 0%;
     padding: 0%;
 }
+a{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    list-style:none;
+}
+
 body{
     font-family: 'Oswald', sans-serif;
     overflow: auto;
@@ -32,12 +40,11 @@ h1{
     width: 600px;
     justify-content: center;
 }
-.links{
-    padding: 5px;
-}
+
 .series_container{
     display: flex;
     justify-content: center;
+    margin-top: -20px;
 }
 .series{
     display: flex;
@@ -46,9 +53,7 @@ h1{
     padding-top: 30px;
     padding-bottom:30px;
     flex-wrap: wrap;
-}
-.advantages_item{
-   
+    font-size: 17pt;
 }
 
 
