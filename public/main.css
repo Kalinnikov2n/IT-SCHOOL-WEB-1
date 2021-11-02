@@ -1,8 +1,4 @@
-.title{
-    color: blanchedalmond;
-    font-size: 70px;
-    font-family: "Ustroke";
-}
+
 #header{
  width: 100%;
  background: black url(logof.jpg) no-repeat 5% 50%;
@@ -12,6 +8,36 @@
 #footer{
     height: 150px;
     background-color: darkolivegreen;
+}
+#boloto{
+    font-family: 'Neucha', cursive;
+    color: black;
+    position:absolute;
+    font-size: 40px;
+    top: 140px;
+    left: 30px;
+}
+#c{
+    font-size: 29px;
+    list-style: none;
+}
+#hand{
+    position: absolute;
+    left: 1200px;
+    top: 0px;
+}
+.song{
+    position: relative;
+    left: 100px;
+    font-family: 'Neucha', cursive;
+    color: black;
+    font-size: 35px;
+    bottom: 200px;
+}
+.title{
+    color: blanchedalmond;
+    font-size: 70px;
+    font-family: "Ustroke";
 }
 .menu{
     list-style: none;
@@ -26,6 +52,14 @@
     font-family: 'Neucha', cursive;
     color: darkolivegreen;
     font-size: 20px;
+}
+.contacts{
+    font-family: 'Neucha', cursive;
+    color: blanchedalmond;
+    font-size: 25px;
+    position: relative;
+    left: 30px;
+    top: 20px;
 }
 * {
 	margin: 0;
@@ -43,18 +77,6 @@ html, body{
     background-color: blanchedalmond;
     height: 100%;
 
-}
-.contacts{
-    font-family: 'Neucha', cursive;
-    color: blanchedalmond;
-    font-size: 25px;
-    position: relative;
-    left: 30px;
-    top: 20px;
-}
-#c{
-    font-size: 29px;
-    list-style: none;
 }
 
 @font-face {
