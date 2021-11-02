@@ -1,21 +1,32 @@
      body {
-         background-color: rgb(206, 77, 156);
+         background-color: #e3989f;
      }
 
 
-     @font-face {
-         font-family: 'Arial Nova';
-         src: local('Arial Nova Bold'), local('Arial-Nova-Bold'),
-             url('ArialNova-Bold.woff2') format('woff2'),
-             url('ArialNova-Bold.woff') format('woff'),
-             url('ArialNova-Bold.ttf') format('truetype');
-         font-weight: 700;
-         font-style: normal;
+     
+     .HI{
+         font-family: Arial, Helvetica, sans-serif;
+         font-weight: 600;
+         line-height: 1.3;
      }
 
      .dws {
-         position: relative;
-         left: 150px;
+         position: absolute;
+         top: 50px;
+         left: 300px;
+         
+     }
+
+     .dws1 {
+         position: absolute;
+         top: 50px;
+         left: 600px;
+     }
+
+     .dws2 {
+         position: absolute;
+         top: 50px;
+         left: 900px;
      }
 
      .butt {
@@ -33,8 +44,9 @@
          transition: .4s;
          overflow: hidden;
      }
-     .butt::before, 
-     .butt::after{
+
+     .butt::before,
+     .butt::after {
          position: absolute;
          content: '';
          width: 100%;
@@ -46,14 +58,141 @@
          transition: .4s;
          z-index: -1;
      }
-     .butt::after{
+
+     .butt::after {
          opacity: 1;
          transition-delay: .2s;
      }
-     .butt:hover{
+
+     .butt:hover {
          color: #fff;
      }
+
      .butt:hover::before,
-     .butt:hover::after{
-        left: 0;
+     .butt:hover::after {
+         left: 0;
      }
+
+
+
+
+
+
+
+     .butt1 {
+        text-transform: uppercase;
+        text-decoration: none;
+        border: 5px solid #222666;
+        font-size: 30px;
+        width: 250px;
+        height: 60;
+        display: block;
+        text-align: center;
+        line-height: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        transition: .4s;
+        overflow: hidden;
+    }
+
+    .butt1::before,
+    .butt1::after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: #218284;
+        top: 0;
+        left: -100%;
+        opacity: .5;
+        transition: .4s;
+        z-index: -1;
+    }
+
+    .butt1::after {
+        opacity: 1;
+        transition-delay: .2s;
+    }
+
+    .butt1:hover {
+        color: #fff;
+    }
+
+    .butt1:hover::before,
+    .butt1:hover::after {
+        left: 0;
+    }
+
+
+
+
+    .butt2 {
+        text-transform: uppercase;
+        text-decoration: none;
+        border: 5px solid #222666;
+        font-size: 30px;
+        width: 250px;
+        height: 60;
+        display: block;
+        text-align: center;
+        line-height: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        transition: .4s;
+        overflow: hidden;
+    }
+
+    .butt2::before,
+    .butt2::after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: #218284;
+        top: 0;
+        left: -100%;
+        opacity: .5;
+        transition: .4s;
+        z-index: -1;
+    }
+
+    .butt2::after {
+        opacity: 1;
+        transition-delay: .2s;
+    }
+
+    .butt2:hover {
+        color: #fff;
+    }
+
+    .butt2:hover::before,
+    .butt2:hover::after {
+        left: 0;
+    }
+
+
+
+    
+
+    .foto{
+        width: 150px;
+    height: 200px;
+    }
+
+
+    footer {
+        background-color: palevioletred;
+        height: 80px;
+        margin-top: -80px;
+        
+        
+    }
+    .social{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .probel{
+        width: 300px;
+        height: 300px;
+    }
+    
+    
