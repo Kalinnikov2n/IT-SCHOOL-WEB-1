@@ -1,0 +1,55 @@
+body {
+	font: 22px Tahoma, sans-serif;
+	background-color: rgb(215, 215, 235);
+	border-top: 10px solid cyan;
+	margin: 0;
+	border: solid 5px greenyellow;
+	
+}
+input[type="text"] {
+	background-color: #f3f3f3;
+	border: 1px solid #e7e7e7;
+	height: 30px;
+	color: #b2b2b2;
+	padding: 0 10px;
+	vertical-align: top;
+}
+button {
+	color: #fff;
+	background-color: #29c5e6;
+	border: none;
+	height: 32px;
+	font-family: 'Oswald', sans-serif;
+}
+p {
+	margin: 0px 0;    
+}
+section
+{
+	color: rgb(163, 59, 163);
+    background-color: white;
+    width: 900px;
+    height: 900px;
+	border: solid 3px lightsalmon;
+}
+#wrapper {
+	max-width: 960px;
+	margin: auto;
+}
+header {
+	background-color: lightcoral;
+    width: 900px;
+    height: 50px;
+    color: violet;
+	border: solid 3px lightskyblue;
+}
+footer {
+	color: honeydew;
+	width: 900px;
+	height: 150px;
+	background-color: rgb(71, 65, 65);
+	border: solid 3px yellow
+}
+a {
+	color: lightskyblue;
+}
