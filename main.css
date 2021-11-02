@@ -1,0 +1,78 @@
+.style
+  
+h1 {font-family: 'Pulsar-original', sans-serif;}
+h1 {letter-spacing: 6px;
+    color:white;
+    margin: 10px 490px 5px;}
+.w3-row-padding img {margin-bottom: 12px}
+body {background-color: black;}
+h3 {letter-spacing: 2px}
+h4 {text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  margin: 3px 3px 3px;
+  font-size: 17px;}
+.menu-main {
+  background-color:#a6a8a8;
+  list-style: none;
+  margin: 20px -7 5px;
+  padding: 25px 0 5px;
+  text-align: center;
+  background: #8f9190;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+border-top-left-radius: 20px;}
+.menu-main .background {color:aqua}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+  content: "|";
+  color: #858383;
+  display: inline-block;
+  vertical-align:top;}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;}
+.menu-main a, .menu-main a:visited {color: #000000;}
+.menu-main a.current, .menu-main a:hover{color: #086804;}
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #086804;
+  transition: .8s;}
+.menu-main a:hover:before, .menu-main .current:before {left: 0;}
+.menu-main a:hover:after, .menu-main .current:after {right: 0;}   
+@media (max-width: 550px) {
+.menu-main {padding-top: 0;}
+.menu-main li {display: block;}
+.menu-main li:after {content: none;}
+.menu-main a {
+  padding: 25px 0 20px; 
+  margin: 0 30px;}
+}
+.pic {
+    margin: 10px auto 20px;
+    display: block;}
+.links  {background: #8f9190;
+  margin: 20px -7 5px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;}
+
+
