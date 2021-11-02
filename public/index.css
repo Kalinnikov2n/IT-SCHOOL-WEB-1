@@ -11,6 +11,13 @@
     width: 100px;
     height: 100px;
 }
+.prokrutka {
+    height:900px;
+    width: 900px;
+    background: rgb(136, 128, 128);
+    border: 1px solid #C1C1C1;
+    overflow-y: scroll;
+    }    
 .information{
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
@@ -19,6 +26,7 @@
     border-radius: 15px;
     width: 200px;
     height: 100px;
+    cursor: pointer;
 }
 .reviews{
     font-family: 'PT Sans', sans-serif;
@@ -28,6 +36,7 @@
     border-radius: 15px;
     width: 200px;
     height: 100px;
+    cursor: pointer;
 }
 .product{
     font-family: 'PT Sans', sans-serif;
@@ -37,6 +46,7 @@
     border-radius: 15px;
     width: 200px;
     height: 100px;
+    cursor: pointer;
 }
 .guarantee{
     font-family: 'PT Sans', sans-serif;
@@ -46,6 +56,7 @@
     border-radius: 15px;
     width: 200px;
     height: 100px;
+    cursor: pointer;
 }
 .mid{
     height: 1500px;
@@ -61,11 +72,12 @@
 .whiteblock{
 
     display: flex;
-    background-color: white;
-    width: 900px;
+    background-color: rgb(28, 28, 99);
+    width: 1000px;
     height: 1000px;
 }
 .text2{
+    color: rgb(28, 28, 99);
     display: flex;
     align-items:flex-end;
     justify-items: flex-start;
@@ -73,13 +85,13 @@
 .zakat1{
     margin: 0px;
     border-radius: 250px;
-    width: 450px;
+    width: 500px;
     height: 500px;
 }
 .zakat2{
     margin: 0px;
     border-radius: 250px;
-    width: 450px;
+    width: 500px;
     height: 500px;
 }
 
