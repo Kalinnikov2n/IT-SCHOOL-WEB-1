@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+.text{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    width: 720px;
+}
+.Kila img{
+
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+.prokrutka {
+    height:900px;
+    width: 900px;
+    background: rgb(136, 128, 128);
+    border: 1px solid #C1C1C1;
+    overflow-y: scroll;
+    }    
+.information{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: darkblue;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+}
+.reviews{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: darkblue;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+}
+.product{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: darkblue;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+}
+.guarantee{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: darkblue;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+}
+.mid{
+    height: 1500px;
+}
+.paragph{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 60px;
+    color: lightgrey;
+    width: 900px;
+}
+.whiteblock{
+
+    display: flex;
+    background-color: rgb(28, 28, 99);
+    width: 1000px;
+    height: 1000px;
+}
+.text2{
+    color: rgb(28, 28, 99);
+    display: flex;
+    align-items:flex-end;
+    justify-items: flex-start;
+}
+.zakat1{
+    margin: 0px;
+    border-radius: 250px;
+    width: 500px;
+    height: 500px;
+}
+.zakat2{
+    margin: 0px;
+    border-radius: 250px;
+    width: 500px;
+    height: 500px;
+}
+
+.vk{
+    font-size: 20px;
+    margin-left: 100px;
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+}
+.so{
+    font-size: 20px;
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+}
+.gh{
+    font-size: 20px;
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+}
