@@ -13,8 +13,18 @@ li{
 body{
     font-family: 'Oswald', sans-serif;
     overflow: auto;
-
 }
+#left, #right {
+    background:blanchedalmond;
+    position: fixed;
+    }
+    #left, #right {
+            top: 0; bottom: 0;
+            width: 268px;
+            display: flex;
+            }
+            #left { left: 0; }
+            #right { right: 0; }
 .logo{
     background:black;
     width: 100%;
@@ -32,7 +42,8 @@ body{
 }
 h1{
     text-align: center;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .mw-100{
     max-width: 100%;
@@ -45,6 +56,7 @@ h1{
     display: flex;
     justify-content: center;
     margin-top: -20px;
+    padding:5px;
 }
 .series{
     display: flex;
@@ -55,6 +67,14 @@ h1{
     flex-wrap: wrap;
     font-size: 17pt;
 }
+footer{
+    width: 1000px;
+    padding-top: 30px;
+}
+footer a{
+    color: black;
+}
+
 
 
 
