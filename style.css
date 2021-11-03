@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url('./fonts/Ubuntu-Regular.ttf')
+         url("./fonts/Ubuntu-Light.ttf")
+         url('./fonts/Ubuntu-Medium.ttf')
+         url('/fonts/Ubuntu-Bold.ttf');
+}
+
+header {
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 1920px;
+    max-height: 100px;
+    margin: 0;
+    padding: 0 20px;
+    background: linear-gradient(to left, #D7C0D0, #F7C7DB, #F79AD3, #C86FC9, #8E5FCD);
+}
+
+#title {
+    font-family: 'Ubuntu', sans-serif;
+    src: url('./fonts/Ubuntu-Bold.ttf');
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    color:rgb(84, 89, 105);
+    padding-top: 15px;
+    white-space: pre;
+}
+
+nav {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: rgb(84, 89, 105);
+}
+
+body {
+    background-image: url('https://phonoteka.org/uploads/posts/2021-05/1619866658_11-phonoteka_org-p-strannii-fon-dlya-fotoshopa-15.jpg');
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    height: 1080px;
+}
+
+p {
+    margin: 20px;
+}
+
+article {
+    padding: 10px;
+    background-color:#E4DFDA;
+    border-radius: 5px;
+    margin-right: 240px;
+    margin-left: 140px;
+    display: block;
+    width: 800px;
+   }
+
+#logo {
+    height: 80px;
+    border-radius: 100%;
+}
+
+#logo:hover {
+    box-shadow: 0 0 5px darkslategrey;
+}
+
+#img {
+    width: 240px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    box-shadow: 10px grey;
+}
+
+#img:hover {
+    box-shadow: 0 0 20px dimgray;
+}
+
+a:hover {
+    text-shadow: 0 0 10px gray;
+}
+
+aside {
+    padding: 40px 40px;
+    float: right;
+    width: 391px;
+    height: 1425px;
+    background-color: #C69DD2;
+    text-align: center;
+    margin-right: 0px;
+    margin-left: 20px;
+    box-shadow: inset 3px 4px 5px #CFC0BD;
+}
+
+a {
+    color: #5a5a5a;
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    display: inline-block;
+}
+
+footer {
+    max-width: 1920px;
+    height: 180px;
+    background-color: #2c2c2c;
+    color: #5a5a5a;
+}
+
+.footer-top {
+    background: #2c2c2c;
+    padding: 25px 0;
+    padding-left: 25px;
+    font-size: 16px;
+}
