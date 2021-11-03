@@ -9,14 +9,13 @@
 }
 
 header {
-    display: flex;
+    text-align: left;
     font-family: 'Ubuntu', sans-serif;
-    width: 100%;
-    height: 20%;
-    margin: 0 auto;
+    max-width: 1920px;
+    max-height: 100px;
+    margin: 0;
     padding: 0 20px;
-    background: rgb(142, 171, 224);
-    border-radius: 10px;
+    background: linear-gradient(to left, #D7C0D0, #F7C7DB, #F79AD3, #C86FC9, #8E5FCD);
 }
 
 #title {
@@ -27,6 +26,7 @@ header {
     text-align: center;
     color:rgb(84, 89, 105);
     padding-top: 15px;
+    white-space: pre;
 }
 
 nav {
@@ -37,8 +37,10 @@ nav {
 }
 
 body {
-    margin-top: 20px;
+    background-image: url('https://phonoteka.org/uploads/posts/2021-05/1619866658_11-phonoteka_org-p-strannii-fon-dlya-fotoshopa-15.jpg');
+    margin: 0px;
     font-family: 'Ubuntu', sans-serif;
+    height: 1080px;
 }
 
 p {
@@ -47,17 +49,17 @@ p {
 
 article {
     padding: 10px;
-    background-color:#f0f0f0;
+    background-color:#E4DFDA;
     border-radius: 5px;
     margin-right: 240px;
+    margin-left: 140px;
     display: block;
-    width: 70%;
+    width: 800px;
    }
 
 #logo {
-    height: 5=100px; 
-    width: 100px; 
-    border-radius: 50%;
+    height: 80px;
+    border-radius: 100%;
 }
 
 #logo:hover {
@@ -65,10 +67,9 @@ article {
 }
 
 #img {
-    width: 80%;
-    height: 80%;
+    width: 240px;
     border-radius: 20px;
-    border: 3px solid grey;
+    border: 1px solid grey;
     box-shadow: 10px grey;
 }
 
@@ -83,8 +84,13 @@ a:hover {
 aside {
     padding: 40px 40px;
     float: right;
-    width: 20%;
-    height: 100%;
+    width: 391px;
+    height: 1425px;
+    background-color: #C69DD2;
+    text-align: center;
+    margin-right: 0px;
+    margin-left: 20px;
+    box-shadow: inset 3px 4px 5px #CFC0BD;
 }
 
 a {
@@ -95,11 +101,14 @@ ul {
     list-style: none;
 }
 
+section {
+    display: inline-block;
+}
+
 footer {
-    width: 100%;
+    max-width: 1920px;
     height: 180px;
     background-color: #2c2c2c;
-    border-radius: 10px;
     color: #5a5a5a;
 }
 
@@ -108,5 +117,4 @@ footer {
     padding: 25px 0;
     padding-left: 25px;
     font-size: 16px;
-    border-radius: 20px;
 }
