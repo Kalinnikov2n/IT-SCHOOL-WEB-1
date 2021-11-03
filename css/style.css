@@ -1,0 +1,124 @@
+@charset "utf-8";
+* { margin:0;
+padding:0;
+outline:none;
+}
+html {height: 100%;}
+body{
+width:100%;
+height: 100%;
+backgrond-color:white;
+color:rgb(97, 59, 9);
+font-family: "Segoe UI",Arial,sans-serif;
+font-size: 1em;
+line-height: 135%;
+float:left;
+}
+a{
+color:rgb(94, 70, 180);
+text-decoration: none;
+-webkit-transition: all.6s.ease;
+-ms-transition: all.6s.ease;
+}
+a:hover{
+color: violet;
+}
+a,a:hover{ -webkit-transition: all.6s.ease;
+-ms-transition: all.6s.ease;}
+.clear{
+clear:both;
+}
+header{
+width: 98%;
+float:left;
+padding:1%;
+background-color:rgb(156, 197, 238);
+border-bottom: 4px solid rgb(192, 192, 192);
+}
+header #logo{
+width:40%;
+float:left;
+color:tan;
+font-size: 4em;
+font-family: 'Times New Roman', Times, serif;
+}
+header #logo span{
+color:tomato;
+}
+header #menuHead{
+width:26%;
+float:left;
+}
+header #menuHead div{
+float:left;
+margin-right:6%;
+padding:5px;
+background-color: rgb(201, 184, 33);
+border-radius: 10px;}
+header #menuHead div:hover{
+background-color: darkgreen;
+color:darkslateblue;
+}
+header #reg{
+width:30%;
+float:right;
+color:darkcyan;
+}
+footer{
+width: 98%;
+float:left;
+height: 60px;
+padding:1%;
+background-color: rgb(156, 144, 161);
+border-top: 4px solid silver;
+margin-top: 800px;
+}
+footer #social{
+float:left;
+width: 50%;
+}
+footer #social img{
+width:50 px;
+height: 50px;
+float:left;
+margin-right:10px;
+
+}
+footer #right{
+float:right;
+width: 50%;
+text-align:right;
+font-size: 2em;;
+
+}
+#photo{
+box-align:center;
+border:10px;
+}
+p{
+font-size: 1.6em;
+color: rgb(46, 80, 133);
+margin:20px 20px 20px 20px;
+padding:5PX;
+}
+p1{
+font-size: 1.6em;
+color: rgb(74, 133, 46);
+margin-top: 20px;
+align:right;
+
+margin:20px 20px 20px 20px;
+}
+div #photo {
+margin-top: 20px;
+}
+p2{
+color:indigo;
+font-size: 2.6em;
+margin-left: 300px;
+margin-top: 300px;
+
+}
+div{
+margin-top: 20px;
+}
