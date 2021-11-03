@@ -1,0 +1,61 @@
+hr {
+    background-color: burlywood;
+    margin-left: -5%;
+}
+q {
+    color:rgb(68, 51, 29);
+}
+#quote {
+    background-color: cornsilk;
+}
+body {
+    font-family: 'Fruktur', cursive;
+    margin: 0;
+}
+header {
+    background-color: black;
+    padding: 15px;
+}
+#logo {
+    margin-left: 30px;
+}
+footer {
+    background-color: black;
+    padding: 10px;
+}
+.Scroll {
+    display: flex;
+    width: auto;
+    overflow: auto;
+    border: 1px solid black;
+    padding: 2px 5px;
+}
+.content {
+    height: 100vh;
+}
+.white {
+    height: 30%;
+}
+.item {
+    flex: 1 1 auto;
+    margin: 0 15px;
+  }
+.picture {
+      height: 500px;
+  }
+figcaption {
+      text-align: center;
+      font-size: 250%;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+.text {
+    margin-left: 10px;
+}
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon {
+    margin: 0 10px;
+}
