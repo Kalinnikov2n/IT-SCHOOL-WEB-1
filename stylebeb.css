@@ -1,0 +1,155 @@
+@font-face {
+    font-family: Frukture;
+    src: url("../it-communism/publick/Fruktur-Regular.ttf") format("truetype");
+}
+header{
+    font-family: Frukture;
+    width: 1100px;
+    height: 80px;
+    background-color: lightpink;
+    border-radius: 40px 10px;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(../it-communism/publick/maxresdefault-2.jpg);
+}
+#HEAD{
+    width: 1100px;
+    margin: 5px auto;
+    height: auto;
+}
+.logo{
+    width: 200px;
+    float: left;
+    height: 80px;
+}
+.logo a{
+    display: block;
+    margin-left: 19px;
+    margin-top: 15px;
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.gachi{
+    color: indigo;
+}
+.world{
+    color: indigo;
+}
+.cum{
+    color: rgb(248, 242, 231);
+}
+.logo p{
+    margin-left: 25px;
+    margin-top: 3px;
+    margin-bottom: 6px;
+    font-size: 15px;
+    color: ivory;
+}
+.menu{
+    width: 700px;
+    height: 80px;
+    float: left;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+.menu ul li a{
+    display: block;
+    width: 173px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    height: 55px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+.menu ul li a:hover{
+    transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    color: palevioletred;
+    font-size: 20px;
+    background-color: black;
+}
+.log-in{
+    width: 100px;
+    float: left;
+    margin-left: 40px;
+    height: 80px;
+}
+.log-in p{
+    margin-bottom: 10px;
+    margin-top: 12px;
+    text-align: center;
+}
+.log-in a{
+    text-decoration: palegoldenrod;
+    color:slategrey;
+    cursor: pointer;
+}
+.log-in a:hover{
+    color: palevioletred;
+}
+.scroll{
+    height:1200px;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: black;
+}
+::-webkit-scrollbar-thumb{
+    background: lightpink;
+    border-radius: 8px;
+    border: 3px solid black;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: plum;
+}
+#foot{
+    font-family: Frukture;
+    width: 1100px;
+    margin: 5px auto;
+    height: auto;
+}
+footer{
+    font-family: Frukture;
+    width: 2000px auto;
+    height: 80px;
+    background-color: lightpink;
+    text-align: left;
+}
+footer p{
+    margin-top: 30px;
+    margin-left: 100px;
+    list-style: none;
+    float: left;
+}
+.boss1{
+    left:20%;
+    position:absolute;
+top: 500px;
+}
+.boss2{
+    left:40%;
+    position:absolute;
+top: 200px;
+}
+.boss1 p{
+    font-family: Frukture;
+    position:absolute;
+top: 200px;
+font-size: 30px;
+margin-left: 150px;
+}
