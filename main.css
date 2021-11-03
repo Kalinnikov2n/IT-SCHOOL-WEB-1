@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'GOST type A Standart';
+    src: url(./Public/fonts/GOST\ type\ A\ Standard.ttf);}
+   @font-face {
+       font-family: '20354';
+       src: url(./Public/fonts/20354.otf);
+   }
+   @font-face {
+    font-family:'20327';
+    src: url(./Public/fonts/20327.otf);
+   }
+   header{
+    background-color: rgb(173, 189, 245);
+    font-family: '20354';
+    font-size: 150%;
+    text-align: center;
+   }
+.photo1 {
+    zoom:25%;
+    margin-bottom: 600px;
+    text-align: center;
+    margin: 100px;
+    padding: 40px;
+
+}
+.head1 {
+    font-family:'20327';
+    text-align: center;
+}
+.scroll {
+    height: 100px;
+}
+footer {
+    position: fixed;
+}
+.hex{
+    text-align: center;
+}
