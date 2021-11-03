@@ -1,0 +1,133 @@
+H1 {
+    color: rgb(4, 77, 77);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+p{
+    color : black;
+    background-color: rgb(61, 151, 151);
+    font-size: 20px;
+}
+
+
+
+.text{
+    margin-left: 10vw;
+        margin-right: 10vw;
+        color: rgb(4, 77, 77);
+        height: 40vh;
+        font-size: 2.7vh;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: relative;
+    
+}
+
+
+
+header {
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    background-color: rgb(4, 77, 77);
+    height: 75px;
+    width: 100%;
+    color: whitesmoke;
+    font-family: Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+   }
+
+footer {
+    height: 100px; 
+    color: whitesmoke;
+    background-color: rgb(4, 77, 77);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.photo {
+    background-color: rgb(4, 77, 77); 
+    
+    margin-left: 15vw;
+    margin-right: 15vw;
+    overflow: scroll;
+    height: 44vh;
+
+}
+
+.box_1 {
+    height: 40vh;
+    width: 40vw;
+    margin-left: 14vw;
+    margin-right: 14vw;
+}
+
+.TT {
+    margin-left: 25vw;
+    margin-right: 27.6vw;
+}
+.box_2 {
+    height: 40vh;
+    width: 40vw;
+    margin-left: 14vw;
+    margin-right: 14vw;
+}
+
+.TT2 {
+    margin-left: 25vw;
+    margin-right: 27.6vw;
+}
+
+.box_3 {
+    height: 40vh;
+    width: 40vw;
+    margin-left: 14vw;
+    margin-right: 14vw;
+}
+
+.TT3 {
+    margin-left: 25vw;
+    margin-right: 27.6vw;
+}
+
+
+
+
+
+/*примерно под iphone X */
+@media screen and (min-width: 300px) and (max-width: 400px){
+
+    .text{
+        
+        font-size: 1vh;
+    }
+    .box_3{
+        height: 20vh;
+    }
+    .box_2{
+        height: 20vh;
+    }
+    .box_1{
+        height: 20vh;
+    }
+    .TT{
+        font-size: 2vh;
+        margin-left: 6vh;
+        margin-right: 6vh;
+    }
+    .TT2{
+        font-size: 2vh;
+        margin-left: 6vh;
+        margin-right: 6vh;
+    }
+    .TT3{
+        font-size: 2vh;
+        margin-left: 6vh;
+        margin-right: 6vh;
+    }
+    
+    
+    }
