@@ -96,3 +96,38 @@ footer {
 
 
 
+
+/*примерно под iphone X */
+@media screen and (min-width: 300px) and (max-width: 400px){
+
+    .text{
+        
+        font-size: 1vh;
+    }
+    .box_3{
+        height: 20vh;
+    }
+    .box_2{
+        height: 20vh;
+    }
+    .box_1{
+        height: 20vh;
+    }
+    .TT{
+        font-size: 2vh;
+        margin-left: 6vh;
+        margin-right: 6vh;
+    }
+    .TT2{
+        font-size: 2vh;
+        margin-left: 6vh;
+        margin-right: 6vh;
+    }
+    .TT3{
+        font-size: 2vh;
+        margin-left: 6vh;
+        margin-right: 6vh;
+    }
+    
+    
+    }
