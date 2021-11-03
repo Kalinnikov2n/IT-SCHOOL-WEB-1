@@ -1,0 +1,44 @@
+header {
+    width: 100%;    
+    display: flex;
+    float: top;
+    background: black; 
+}
+#logo {
+    height: 40px;
+    margin: 45px;
+    margin-left: 140px;
+}
+header a {
+    text-decoration: none;
+    color: aliceblue;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.menu-top {
+    padding-left: 400px;
+    margin: 45px;
+}
+#nav {
+    margin-left: 15px;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 25px;
+}
+.body {
+    height: 200px;
+    background: #fff;
+}
+footer {
+    height: 60px;
+    background: #000;
+    }
+footer img {
+    width: 32px;
+    margin-top: 45px;
+    background: #000;
+}
