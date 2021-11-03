@@ -5,26 +5,46 @@ body{
 header{
     background-color: rgb(250, 109, 255);
     width: 75vw;
-    height: 100px;
+    height: 10vw;
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     opacity: 0.9;
+    border-radius: 0 0 10px 10px;
 }
 .tag{
+    padding-top: 2.5vw;
     text-align: center;
+    font-size: 4vw;
 }
 
 footer{
     background-color: rgb(250, 109, 255);
     width: 75vw;
-    height: 50px;
+    height: 6vw;
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto; 
     letter-spacing: 1.5vw;
     opacity: 0.9;
+    border-radius:10px 10px 0 0;
 }
-p{
-    
+.url{
+    padding-top: 2vw;
+}
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 5px;
+}  
+.text {
+    margin-top: 2px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
