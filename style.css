@@ -16,15 +16,14 @@ p{
 
 
 .text{
-    display: flex;
+    margin-left: 10vw;
+        margin-right: 10vw;
+        color: rgb(4, 77, 77);
+        height: 40vh;
+        font-size: 2.7vh;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: relative;
     
-    width: 1000px;
-    color: white;
-    height: 270px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: relative;
-    margin-left: 20vw;
-    margin-right: 20vw;
 }
 
 
@@ -50,53 +49,50 @@ footer {
 }
 
 .photo {
-    display: flex;
-    background-color: white;
-    height: 400px;
-    width: 50vw;
+    background-color: rgb(4, 77, 77); 
+    
     margin-left: 15vw;
     margin-right: 15vw;
-    flex-direction: column;
     overflow: scroll;
+    height: 44vh;
 
 }
 
 .box_1 {
-    position: relative;
-    left: 450px;
-    width: 300px;
-    height: 300px;
- 
+    height: 40vh;
+    width: 40vw;
+    margin-left: 14vw;
+    margin-right: 14vw;
 }
 
 .TT {
-    position: relative;
-    left: 450px;
+    margin-left: 25vw;
+    margin-right: 27.6vw;
 }
 .box_2 {
-    position: relative;
-    top: 0px;
-    left: 450px;
-    width: 300px;
-    height: 300px; 
+    height: 40vh;
+    width: 40vw;
+    margin-left: 14vw;
+    margin-right: 14vw;
 }
 
 .TT2 {
-    position: relative;
-    left: 450px;
+    margin-left: 25vw;
+    margin-right: 27.6vw;
 }
+
 .box_3 {
-    position: relative;
-    top: 0px;
-    left: 450px;
-    width: 300px;
-    height: 300px;
+    height: 40vh;
+    width: 40vw;
+    margin-left: 14vw;
+    margin-right: 14vw;
 }
 
 .TT3 {
-    position: relative;
-    left: 450px;
+    margin-left: 25vw;
+    margin-right: 27.6vw;
 }
+
 
 
 
