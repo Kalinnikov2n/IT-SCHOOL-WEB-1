@@ -1,0 +1,32 @@
+.logo{
+
+    position: absolute;
+    border: none;		
+    margin: 0px;
+}
+.pic1 {
+
+padding-top: 100px;
+display: flex;
+flex-direction: column;
+}
+
+.pic2 {
+
+padding-top: 50px;
+}
+
+.pictures {
+
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+overflow: auto;
+
+}
+
+.socials {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
